@@ -8,7 +8,7 @@ const TRANSLATIONS = {
     meta: {
       title: "Dušan Vasić – Full Stack Developer",
       description:
-        "Full Stack Developer with 4+ years of experience building SaaS web applications for passenger transport and fleet operations. TypeScript, NestJS, React, PHP.",
+        "Full Stack Developer with 4+ years of experience building SaaS web applications, admin portals and REST APIs. TypeScript, NestJS, React, PHP.",
       locale: "en_US"
     },
     cvFile: "cv-en.pdf",
@@ -32,14 +32,14 @@ const TRANSLATIONS = {
       greeting: "Hi, I'm",
       name: "Dušan Vasić",
       title: "Full Stack Developer",
-      tagline: "I build SaaS web applications for passenger transport and fleet operations.",
+      tagline: "I build SaaS web applications, admin portals and REST APIs.",
       contact: "Contact",
       cv: "Download CV"
     },
     about: {
       heading: "About me",
       text:
-        "Full Stack Developer with 4+ years of experience building SaaS web applications for passenger transport and fleet operations. Currently developing features for a fleet operations and driver scheduling platform (TypeScript, NestJS, React, PostgreSQL), working directly with the client from requirements to delivery. Previously built a PHP/MySQL ticketing platform with online payments, a multi-client admin portal used by 10+ companies, and REST APIs for mobile apps and self-service kiosks. Uses AI-assisted development (Claude Code) as a core part of the daily workflow.",
+        "Full Stack Developer with 4+ years of experience building SaaS web applications, admin portals and REST APIs. Currently developing features for a fleet operations and driver scheduling platform (TypeScript, NestJS, React, PostgreSQL), working directly with the client from requirements to delivery. Previously built a PHP/MySQL ticketing platform with online payments, a multi-client admin portal used by 10+ companies, and REST APIs for mobile apps and self-service kiosks. Uses AI-assisted development (Claude Code) as a core part of the daily workflow.",
       facts: [
         { value: "4+", label: "years of experience" },
         { value: "10+", label: "client companies using the admin portal" },
@@ -157,7 +157,7 @@ const TRANSLATIONS = {
     meta: {
       title: "Dušan Vasić – Full Stack Developer",
       description:
-        "Full Stack Developer sa više od 4 godine iskustva u razvoju SaaS web aplikacija za putnički saobraćaj i upravljanje voznim parkom. TypeScript, NestJS, React, PHP.",
+        "Full Stack Developer sa više od 4 godine iskustva u razvoju SaaS web aplikacija, admin portala i REST API-ja. TypeScript, NestJS, React, PHP.",
       locale: "sr_RS"
     },
     cvFile: "cv-sr.pdf",
@@ -181,14 +181,14 @@ const TRANSLATIONS = {
       greeting: "Zdravo, ja sam",
       name: "Dušan Vasić",
       title: "Full Stack Developer",
-      tagline: "Razvijam SaaS web aplikacije za putnički saobraćaj i upravljanje voznim parkom.",
+      tagline: "Razvijam SaaS web aplikacije, admin portale i REST API-je.",
       contact: "Kontakt",
       cv: "Preuzmi CV"
     },
     about: {
       heading: "O meni",
       text:
-        "Full Stack Developer sa više od 4 godine iskustva u razvoju SaaS web aplikacija za putnički saobraćaj i upravljanje voznim parkom. Trenutno razvijam funkcionalnosti platforme za upravljanje voznim parkom i planiranje rada vozača (TypeScript, NestJS, React, PostgreSQL) i radim direktno sa klijentom, od definisanja zahteva do isporuke. Ranije sam razvijao PHP/MySQL platformu za prodaju karata sa online plaćanjem, multi-client admin portalom koji koristi 10+ firmi i REST API-jima za mobilne aplikacije i samouslužne kioske. AI-assisted development (Claude Code) je sastavni deo mog svakodnevnog rada.",
+        "Full Stack Developer sa više od 4 godine iskustva u razvoju SaaS web aplikacija, admin portala i REST API-ja. Trenutno razvijam funkcionalnosti platforme za upravljanje voznim parkom i planiranje rada vozača (TypeScript, NestJS, React, PostgreSQL) i radim direktno sa klijentom, od definisanja zahteva do isporuke. Ranije sam razvijao PHP/MySQL platformu za prodaju karata sa online plaćanjem, multi-client admin portalom koji koristi 10+ firmi i REST API-jima za mobilne aplikacije i samouslužne kioske. AI-assisted development (Claude Code) je sastavni deo mog svakodnevnog rada.",
       facts: [
         { value: "4+", label: "godine iskustva" },
         { value: "10+", label: "firmi koristi admin portal" },
