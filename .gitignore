@@ -1,0 +1,15 @@
+# Original CV and working files (kept local only)
+Dušan_Vasić_FlowCV_Resume_2026-10-07.pdf
+*FlowCV*.pdf
+cv.pdf
+cv-en.md
+cv-sr.md
+
+# Local tooling / OS files
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+__test*.html
