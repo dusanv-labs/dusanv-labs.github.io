@@ -87,7 +87,7 @@ const TRANSLATIONS = {
         { name: "Frontend", items: ["React", "Tailwind CSS", "jQuery"] },
         { name: "Databases", items: ["PostgreSQL", "MySQL"] },
         { name: "APIs & Integrations", items: ["Google Maps API", "Online payments", "Kiosk and mobile app APIs", "Raspberry Pi devices"] },
-        { name: "Tools & Workflow", items: ["Git", "GitHub", "Claude Code (AI-assisted development)"] },
+        { name: "Tools & Workflow", items: ["Git", "GitHub", "Claude Code (AI-assisted development, prompt & context engineering, MCP)"] },
         { name: "Domain", items: ["SaaS platforms", "Fleet management", "Scheduling and dispatch", "Ticketing"] }
       ]
     },
@@ -236,7 +236,7 @@ const TRANSLATIONS = {
         { name: "Frontend", items: ["React", "Tailwind CSS", "jQuery"] },
         { name: "Baze podataka", items: ["PostgreSQL", "MySQL"] },
         { name: "API-ji i integracije", items: ["Google Maps API", "Online plaćanje", "API-ji za kioske i mobilne aplikacije", "Raspberry Pi uređaji"] },
-        { name: "Alati i način rada", items: ["Git", "GitHub", "Claude Code (AI-assisted development)"] },
+        { name: "Alati i način rada", items: ["Git", "GitHub", "Claude Code (AI-assisted development, prompt i context engineering, MCP)"] },
         { name: "Domen", items: ["SaaS platforme", "Upravljanje voznim parkom", "Planiranje i dispečing", "Prodaja karata"] }
       ]
     },
