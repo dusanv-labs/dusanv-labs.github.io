@@ -99,8 +99,17 @@
     var grid = document.getElementById("projects-grid");
     grid.replaceChildren();
     t("projects.items").forEach(function (item) {
-      var card = el("article", "card project-card");
-      card.appendChild(el("span", "badge", t("projects.badge")));
+      var card = el("article", "card project-card" + (item.links && item.links.length ? " project-card--featured" : ""));
+      if (item.image) {
+        var img = el("img", "project-thumb");
+        img.src = item.image;
+        img.alt = item.imageAlt || item.title;
+        img.loading = "lazy";
+        img.width = 640;
+        img.height = 360;
+        card.appendChild(img);
+      }
+      card.appendChild(el("span", "badge", item.badge || t("projects.badge")));
       card.appendChild(el("h3", null, item.title));
       card.appendChild(el("p", null, item.description));
       card.appendChild(tags(item.tech));

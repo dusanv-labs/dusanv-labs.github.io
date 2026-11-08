@@ -93,10 +93,22 @@ const TRANSLATIONS = {
     },
     projects: {
       heading: "Projects",
-      intro: "Commercial projects I have worked on at Saniva. The source code is proprietary, so there are no public links.",
+      intro: "A personal open-source project, followed by commercial projects I have worked on at Saniva (their source code is proprietary, so they have no public links).",
       badge: "Commercial project",
       githubCta: "More on GitHub",
       items: [
+        {
+          title: "BookTheCourt – sports court booking",
+          badge: "Personal project · open source",
+          description: "Full-stack booking app for padel, tennis and football courts: availability calendar, booking in a few taps, admin panel and a revenue report with XLSX/PDF export. English and Serbian.",
+          tech: ["TypeScript", "NestJS", "React", "PostgreSQL", "Prisma", "Tailwind CSS"],
+          image: "images/book-the-court.png",
+          imageAlt: "BookTheCourt booking page with a calendar, start times and free courts",
+          links: [
+            { label: "Live demo", url: "https://dusanv-labs.github.io/book-the-court/" },
+            { label: "Source code", url: "https://github.com/dusanv-labs/book-the-court" }
+          ]
+        },
         {
           title: "Fleet operations & driver scheduling",
           description: "Dispatcher module for driver work planning, daily shift scheduling and absence management, plus bulk timetable import from Excel.",
@@ -242,10 +254,22 @@ const TRANSLATIONS = {
     },
     projects: {
       heading: "Projekti",
-      intro: "Komercijalni projekti na kojima sam radio u firmi Saniva. Izvorni kod je vlasništvo firme, pa nema javnih linkova.",
+      intro: "Lični open-source projekat, a zatim komercijalni projekti na kojima sam radio u firmi Saniva (njihov izvorni kod je vlasništvo firme, pa nemaju javne linkove).",
       badge: "Komercijalni projekat",
       githubCta: "Više na GitHub-u",
       items: [
+        {
+          title: "BookTheCourt – rezervacija sportskih terena",
+          badge: "Lični projekat · open source",
+          description: "Full-stack aplikacija za rezervaciju padel, teniskih i fudbalskih terena: kalendar sa zauzetošću, rezervacija u nekoliko koraka, admin panel i izveštaj o prihodima sa izvozom u XLSX/PDF. Na engleskom i srpskom.",
+          tech: ["TypeScript", "NestJS", "React", "PostgreSQL", "Prisma", "Tailwind CSS"],
+          image: "images/book-the-court.png",
+          imageAlt: "Stranica za rezervaciju BookTheCourt sa kalendarom, vremenima početka i slobodnim terenima",
+          links: [
+            { label: "Živi demo", url: "https://dusanv-labs.github.io/book-the-court/" },
+            { label: "Izvorni kod", url: "https://github.com/dusanv-labs/book-the-court" }
+          ]
+        },
         {
           title: "Vozni park i planiranje rada vozača",
           description: "Dispečerski modul za planiranje rada vozača, dnevni raspored smena i evidenciju odsustva, uz masovni uvoz redova vožnje iz Excel-a.",

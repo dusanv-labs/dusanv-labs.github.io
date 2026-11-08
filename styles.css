@@ -248,6 +248,15 @@ svg.fill { fill: currentColor; stroke: none; }
   color: var(--accent); margin-bottom: .6rem;
 }
 .card-links { display: flex; gap: 1rem; margin-top: 1rem; font-weight: 600; }
+.project-thumb { display: block; width: calc(100% + 2.8rem); max-width: none; margin: -1.4rem -1.4rem 1rem; aspect-ratio: 16 / 9; object-fit: cover; object-position: top left; border-radius: 16px 16px 0 0; border-bottom: 1px solid var(--border); }
+.project-card--featured { border-color: var(--accent); }
+.project-card--featured { grid-column: 1 / -1; }
+@media (min-width: 860px) {
+  .project-card--featured { display: grid; grid-template-columns: 1.15fr 1fr; column-gap: 1.8rem; align-content: start; }
+  .project-card--featured > :not(.project-thumb) { grid-column: 2; }
+  .project-card--featured .project-thumb { grid-column: 1; grid-row: 1 / span 6; width: calc(100% + 1.4rem); height: calc(100% + 2.8rem); margin: -1.4rem 0 -1.4rem -1.4rem; aspect-ratio: auto; border-radius: 16px 0 0 16px; border-bottom: 0; border-right: 1px solid var(--border); }
+  .project-card--featured .badge { margin-top: .4rem; }
+}
 
 /* Education */
 .edu-grid { display: grid; gap: 1.1rem; }
