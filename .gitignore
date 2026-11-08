@@ -13,3 +13,6 @@ Thumbs.db
 desktop.ini
 .DS_Store
 __test*.html
+
+# Original, unoptimized photo (the site uses images/profile.jpg)
+profilna.png

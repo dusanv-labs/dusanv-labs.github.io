@@ -34,7 +34,8 @@ const TRANSLATIONS = {
       title: "Full Stack Developer",
       tagline: "I build SaaS web applications, admin portals and REST APIs.",
       contact: "Contact",
-      cv: "Download CV"
+      cv: "Download CV",
+      photoAlt: "Dušan Vasić, Full Stack Developer"
     },
     about: {
       heading: "About me",
@@ -195,7 +196,8 @@ const TRANSLATIONS = {
       title: "Full Stack Developer",
       tagline: "Razvijam SaaS web aplikacije, admin portale i REST API-je.",
       contact: "Kontakt",
-      cv: "Preuzmi CV"
+      cv: "Preuzmi CV",
+      photoAlt: "Dušan Vasić, Full Stack Developer"
     },
     about: {
       heading: "O meni",
