@@ -16,3 +16,6 @@ __test*.html
 
 # Original, unoptimized photo (the site uses images/profile.jpg)
 profilna.png
+
+# Brand assets (logo, banner) kept locally; the GitHub profile uses its own copy of the banner
+brand images/
