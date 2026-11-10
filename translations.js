@@ -101,8 +101,8 @@ const TRANSLATIONS = {
         {
           title: "BookTheCourt – sports court booking",
           badge: "Personal project · open source",
-          description: "Full-stack booking app for padel, tennis and football courts: availability calendar, booking in a few taps, admin panel and a revenue report with XLSX/PDF export. English and Serbian.",
-          tech: ["TypeScript", "NestJS", "React", "PostgreSQL", "Prisma", "Tailwind CSS"],
+          description: "Full-stack booking app for padel, tennis and football courts: availability calendar, booking in a few taps, an AI booking assistant that finds free courts through tool use (Claude API), admin panel and a revenue report with XLSX/PDF export. English and Serbian.",
+          tech: ["TypeScript", "NestJS", "React", "PostgreSQL", "Prisma", "Claude API", "Tailwind CSS"],
           image: "images/book-the-court.png",
           imageAlt: "BookTheCourt booking page with a calendar, start times and free courts",
           links: [
@@ -263,8 +263,8 @@ const TRANSLATIONS = {
         {
           title: "BookTheCourt – rezervacija sportskih terena",
           badge: "Lični projekat · open source",
-          description: "Full-stack aplikacija za rezervaciju padel, teniskih i fudbalskih terena: kalendar sa zauzetošću, rezervacija u nekoliko koraka, admin panel i izveštaj o prihodima sa izvozom u XLSX/PDF. Na engleskom i srpskom.",
-          tech: ["TypeScript", "NestJS", "React", "PostgreSQL", "Prisma", "Tailwind CSS"],
+          description: "Full-stack aplikacija za rezervaciju padel, teniskih i fudbalskih terena: kalendar sa zauzetošću, rezervacija u nekoliko koraka, AI asistent koji pomoću alata (Claude API) pronalazi slobodne terene, admin panel i izveštaj o prihodima sa izvozom u XLSX/PDF. Na engleskom i srpskom.",
+          tech: ["TypeScript", "NestJS", "React", "PostgreSQL", "Prisma", "Claude API", "Tailwind CSS"],
           image: "images/book-the-court.png",
           imageAlt: "Stranica za rezervaciju BookTheCourt sa kalendarom, vremenima početka i slobodnim terenima",
           links: [
